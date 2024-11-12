@@ -35,3 +35,7 @@ In your app.json, set the web bundler to be metro:
 
 ********************************
 npx expo start --reset-cache.
+
+**What's next**
+
+- Bottom Tabs -> Adda second Screen : profile
