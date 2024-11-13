@@ -35,7 +35,19 @@ In your app.json, set the web bundler to be metro:
 
 Button Tabs icon: npx expo install @expo/vector-icons
 
-
+Path alias: https://www.typescriptlang.org/docs/handbook/modules/theory.html#module-resolution -> Update: tsconfig.json :
+{
+   "extends": "expo/tsconfig.base",
+   "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+   }
+ }
+After making these changes, close and reopen your editor and restart the metro bundler.
 
 
 ********************************
