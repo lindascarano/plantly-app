@@ -33,9 +33,14 @@ In your app.json, set the web bundler to be metro:
   }
 }
 
+Button Tabs icon: npx expo install @expo/vector-icons
+
+
+
+
 ********************************
 npx expo start --reset-cache.
 
 **What's next**
 
-- Bottom Tabs -> Adda second Screen : profile
+- Bottom Tabs -> Add Two-tab layout
