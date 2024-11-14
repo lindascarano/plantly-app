@@ -55,4 +55,4 @@ npx expo start --reset-cache.
 
 **What's next**
 
-- Bottom Tabs -> Add Two-tab layout
+- Layout Groups -> Add the onboarding screen
