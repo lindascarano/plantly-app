@@ -5,11 +5,15 @@ export default function RootLayout() {
     <Stack>
       <Stack.Screen
         name="(tabs)"
-        options={{ headerShown: false }}
+        options={{ headerShown: false, animation: "fade" }}
       ></Stack.Screen>
       <Stack.Screen
         name="onboarding"
-        options={{ presentation: "modal" }}
+        options={{
+          presentation: "modal",
+          headerShown: false,
+          animation: "fade",
+        }}
       ></Stack.Screen>
     </Stack>
   );

@@ -49,6 +49,8 @@ Path alias: https://www.typescriptlang.org/docs/handbook/modules/theory.html#mod
  }
 After making these changes, close and reopen your editor and restart the metro bundler.
 
+State Mnagement Library: npx expo install zustand
+
 
 ********************************
 npx expo start --reset-cache.
