@@ -58,6 +58,13 @@ Add haptic feedback: npx expo install expo-haptics
 
 Status Bar library(if it doesn't exist yet): npx expo install expo-status-bar
 
+Pick the Image: npx expo install expo-image-picker
+image picker that lets you choose images both from the image Gallery as well a take a picture.
+
+
+
+
+
 
 ********************************
 **Credits for Images**
