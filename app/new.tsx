@@ -1,6 +1,8 @@
 import { PlanlyButton } from "@/components/PlantlyButton";
 import { PlantlyImage } from "@/components/PlantlyImage";
+import { usePlantStore } from "@/store/plantsStore";
 import { theme } from "@/theme";
+import { useRouter } from "expo-router";
 import { useState } from "react";
 import {
   StyleSheet,
@@ -12,6 +14,8 @@ import {
 } from "react-native";
 
 export default function NewScreen() {
+  const router = useRouter();
+  const addPlant = usePlantStore((state) => state.addPlant);
   const [name, setName] = useState<string>();
   const [days, setDays] = useState<string>();
 
@@ -37,9 +41,8 @@ export default function NewScreen() {
       );
     }
 
-    // Add new plant to the database or save it locally
-    // Then, navigate back to the home screen
-    console.log("Submitting new plant:", { name, days });
+    addPlant(name, Number(days));
+    router.navigate("/");
   };
 
   return (
