@@ -51,6 +51,9 @@ After making these changes, close and reopen your editor and restart the metro b
 
 State Mnagement Library: npx expo install zustand
 
+Persist onboarding state with Async Storage: 
+npx expo install @react-native-async-storage/async-storage
+
 
 ********************************
 npx expo start --reset-cache.
