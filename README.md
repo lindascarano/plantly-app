@@ -56,6 +56,8 @@ npx expo install @react-native-async-storage/async-storage
 
 Add haptic feedback: npx expo install expo-haptics
 
+Status Bar library(if it doesn't exist yet): npx expo install expo-status-bar
+
 
 ********************************
 npx expo start --reset-cache.
