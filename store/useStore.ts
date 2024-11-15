@@ -11,12 +11,13 @@ type UserState = {
 };
 
 export const useUserStore = create(
-  persist<UserState>((set) => ({
+  persist<UserState>(
+    (set) => ({
       hasFinishedOnboarding: false,
       toggleHasOnboarded: () =>
         set((state) => {
           return {
-           ...state,
+            ...state,
             hasFinishedOnboarding: !state.hasFinishedOnboarding,
           };
         }),

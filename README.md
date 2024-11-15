@@ -54,10 +54,11 @@ State Mnagement Library: npx expo install zustand
 Persist onboarding state with Async Storage: 
 npx expo install @react-native-async-storage/async-storage
 
+Add haptic feedback: npx expo install expo-haptics
+
 
 ********************************
 npx expo start --reset-cache.
 
 **What's next**
 
-- Layout Groups -> Add the onboarding screen

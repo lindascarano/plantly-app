@@ -1,7 +1,8 @@
+import { PlanlyButton } from "@/components/PlantlyButton";
 import { useUserStore } from "@/store/useStore";
 import { theme } from "@/theme";
 import { useRouter } from "expo-router";
-import { View, Text, StyleSheet, Button } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 // Toggle the onboarding state from the onboarding modal and redirect to home
 export default function OndboardingScreen() {
@@ -15,7 +16,7 @@ export default function OndboardingScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Onboarding</Text>
-      <Button title="Fammi entrare nell' app" onPress={handlePress} />
+      <PlanlyButton title={"Fammi entrare nell'App"} onPress={handlePress} />
     </View>
   );
 }
