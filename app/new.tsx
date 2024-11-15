@@ -1,4 +1,4 @@
-import { PlanlyButton } from "@/components/PlantlyButton";
+import { PlantlyButton } from "@/components/PlantlyButton";
 import { PlantlyImage } from "@/components/PlantlyImage";
 import { usePlantStore } from "@/store/plantsStore";
 import { theme } from "@/theme";
@@ -70,7 +70,7 @@ export default function NewScreen() {
         placeholder="Es. 7"
         keyboardType="number-pad"
       />
-      <PlanlyButton title="Add Nuova Pianta!" onPress={handleSubmit} />
+      <PlantlyButton title="Add Nuova Pianta!" onPress={handleSubmit} />
     </ScrollView>
   );
 }

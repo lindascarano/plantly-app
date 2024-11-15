@@ -1,4 +1,4 @@
-import { PlanlyButton } from "@/components/PlantlyButton";
+import { PlantlyButton } from "@/components/PlantlyButton";
 import { useUserStore } from "@/store/useStore";
 import { theme } from "@/theme";
 import { LinearGradient } from "expo-linear-gradient";
@@ -32,7 +32,7 @@ export default function OndboardingScreen() {
       </View>
       <PlantlyImage />
       {/* <Text style={styles.text}>Onboarding</Text> */}
-      <PlanlyButton title={"Fammi entrare!"} onPress={handlePress} />
+      <PlantlyButton title={"Fammi entrare!"} onPress={handlePress} />
     </LinearGradient>
   );
 }

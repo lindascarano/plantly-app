@@ -7,7 +7,7 @@ type Props = {
   onPress: () => void;
 };
 
-export function PlanlyButton({ title, onPress }: Props) {
+export function PlantlyButton({ title, onPress }: Props) {
   const handlePressed = () => {
     if (Platform.OS !== "web") {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
