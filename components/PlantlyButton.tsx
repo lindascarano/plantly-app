@@ -43,5 +43,6 @@ const styles = StyleSheet.create({
     color: theme.colorWhite,
     fontSize: 16,
     fontWeight: "bold",
+    textTransform: "uppercase",
   },
 });

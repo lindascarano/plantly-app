@@ -60,6 +60,9 @@ Status Bar library(if it doesn't exist yet): npx expo install expo-status-bar
 
 
 ********************************
+**Credits for Images**
+- <a href="https://www.flaticon.com/free-icons/indoor-plants" title="indoor plants icons">Indoor plants icons created by Flat Icons Design - Flaticon</a>
+
 npx expo start --reset-cache.
 
 **What's next**
