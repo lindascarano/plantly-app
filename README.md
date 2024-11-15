@@ -62,6 +62,9 @@ Pick the Image: npx expo install expo-image-picker
 image picker that lets you choose images both from the image Gallery as well a take a picture.
 
 
+Store the image: npx expo install expo-file-system
+Save the image when a new plant is added -> we need to also store it when we save the plant. It's not sufficient to simply store the uri we get from the image picker, because that storage is not guaranteed to persist. We'll need to copy the image to the document storage for the app so it will exist as long as the app is installed.
+
 
 
 
