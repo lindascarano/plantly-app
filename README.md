@@ -66,6 +66,10 @@ Store the image: npx expo install expo-file-system
 Save the image when a new plant is added -> we need to also store it when we save the plant. It's not sufficient to simply store the uri we get from the image picker, because that storage is not guaranteed to persist. We'll need to copy the image to the document storage for the app so it will exist as long as the app is installed.
 
 
+<a href="assets\ConvertScreenIntoStack.png">How to convert screen into stack</a>
+
+Date formatting: npx expo install date-fns
+
 
 
 
@@ -78,4 +82,6 @@ Save the image when a new plant is added -> we need to also store it when we sav
 npx expo start --reset-cache.
 
 **What's next**
+
+- Dynamic Routes: prima di terminare questa sezione e fare il commit cerca di capire perchè l'icona col + la devo premere troppe volte per far aprire lo screen new!!!!!!
 
