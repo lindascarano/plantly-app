@@ -10,7 +10,7 @@ export function PlantlyImage({ size, imageUri }: Props) {
   const imageSize = size || Math.min(width / 1.6, 400);
   return (
     <Image
-      source={imageUri ? { uri: imageUri } : require("@/assets/smiling.png")}
+      source={imageUri ? { uri: imageUri } : require("@/assets/plantly.png")}
       style={{ width: imageSize, height: imageSize, borderRadius: 6 }}
     />
   );
